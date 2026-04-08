@@ -69,8 +69,8 @@
   <h2>My School Platform</h2>
 
   <div class="nav-buttons">
-    <a href="#" class="btn login">Login</a>
-    <a href="#" class="btn dashboard">Dashboard</a>
+    <button class="btn login" onclick="loginUser()">Login</button>
+<button class="btn dashboard" onclick="goToDashboard()">Dashboard</button>
 
     <div class="dropdown">
       <button class="btn courses">Courses ▼</button>
@@ -146,6 +146,15 @@
             </p>
         </div>
     </footer>
+    <script>
+function loginUser() {
+  alert("Login button clicked");
+}
+
+function goToDashboard() {
+  alert("Dashboard opened");
+}
+    </script>
 
 </body>
 </html>
