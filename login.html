@@ -2,55 +2,17 @@
 <html>
 <head>
   <title>Login</title>
-
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-family: Arial;
-      background-color: #f2f2f2;
-    }
-
-    .login-box {
-      background: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      text-align: center;
-      width: 300px;
-    }
-
-    input {
-      width: 90%;
-      padding: 10px;
-      margin: 10px 0;
-    }
-
-    button {
-      padding: 10px 20px;
-      width: 100%;
-      background: blue;
-      color: white;
-      border: none;
-      border-radius: 5px;
-    }
-  </style>
-
 </head>
 <body>
 
-<div class="login-box">
-  <h2>Login</h2>
+<h2>Login</h2>
 
-  <input type="text" id="user" placeholder="Username"><br>
-  <input type="password" id="pass" placeholder="Password"><br>
+<input type="text" id="user" placeholder="Username"><br><br>
+<input type="password" id="pass" placeholder="Password"><br><br>
 
-  <button onclick="login()">Login</button>
+<button onclick="login()">Login</button>
 
-  <p id="msg"></p>
-</div>
+<p id="msg"></p>
 
 <script>
 function login() {
